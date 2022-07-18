@@ -1,0 +1,2 @@
+#!/bin/bash
+id ats &>/dev/null || /usr/sbin/useradd -u 176 -r ats -s /sbin/nologin -d /

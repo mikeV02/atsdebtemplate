@@ -1,0 +1,11 @@
+#!/bin/bash
+# Helpful in understanding order of operations in relation to install/uninstall/upgrade:
+#     https://fedoraproject.org/wiki/Packaging:Scriptlets
+
+# Always do this because the service file may have been updated.
+/bin/systemctl daemon-reload
+
+# if 0 uninstall, if 1 upgrade
+if [ "$1" = "0" ]; then
+        id ats &>/dev/null && /usr/sbin/userdel ats
+fi

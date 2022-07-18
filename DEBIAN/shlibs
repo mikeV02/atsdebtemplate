@@ -1,0 +1,6 @@
+libtscore 9 trafficserver
+libtscppapi 9 trafficserver
+libtscpputil 9 trafficserver
+libtsmgmt 9 trafficserver
+libcrypto 1.1 trafficserver
+libssl 1.1 trafficserver

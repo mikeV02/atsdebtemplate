@@ -1,0 +1,15 @@
+/opt/trafficserver/etc/trafficserver/cache.config
+/opt/trafficserver/etc/trafficserver/hosting.config
+/opt/trafficserver/etc/trafficserver/ip_allow.yaml
+/opt/trafficserver/etc/trafficserver/logging.yaml
+/opt/trafficserver/etc/trafficserver/parent.config
+/opt/trafficserver/etc/trafficserver/plugin.config
+/opt/trafficserver/etc/trafficserver/records.config
+/opt/trafficserver/etc/trafficserver/remap.config
+/opt/trafficserver/etc/trafficserver/sni.yaml
+/opt/trafficserver/etc/trafficserver/socks.config
+/opt/trafficserver/etc/trafficserver/splitdns.config
+/opt/trafficserver/etc/trafficserver/ssl_multicert.config
+/opt/trafficserver/etc/trafficserver/storage.config
+/opt/trafficserver/etc/trafficserver/strategies.yaml
+/opt/trafficserver/etc/trafficserver/volume.config

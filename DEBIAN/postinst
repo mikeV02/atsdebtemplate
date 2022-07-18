@@ -1,0 +1,24 @@
+#!/bin/bash
+# alien added permissions fixup code
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/cache.config'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/hosting.config'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/ip_allow.yaml'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/logging.yaml'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/parent.config'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/plugin.config'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/records.config'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/remap.config'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/snapshots'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/sni.yaml'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/socks.config'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/splitdns.config'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/ssl_multicert.config'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/storage.config'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/strategies.yaml'
+chown 'ats:ats' '/opt/trafficserver/etc/trafficserver/volume.config'
+chown 'ats:ats' '/opt/trafficserver/var/log/trafficserver'
+chown 'ats:ats' '/opt/trafficserver/var/trafficserver'
+
+/bin/systemctl daemon-reload
+/bin/systemctl enable trafficserver
